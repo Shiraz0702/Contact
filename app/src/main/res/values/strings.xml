@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CONTACT</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="fields_empty">Incorrect email</string>
+    <string name="register_successful">Registration successful</string>
+    <string name="wrong_email_or_password">Incorrect email</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_lenght_password">Password should be less than 15 and more than 8 characters in length </string>
+    <string name="error_uppercase_password">Password should contain at least one upper case alphabet</string>
+    <string name="error_lower_case">Password should contain at least one lower case alphabet</string>
+    <string name="error_number_password">Password should contain at least one number</string>
+</resources>

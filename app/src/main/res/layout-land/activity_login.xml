@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".activities.RegisterActivity">
+
+    <ImageView
+        android:id="@+id/logo_iv"
+        android:layout_width="@dimen/laout_land_logo_dimens"
+        android:layout_height="@dimen/laout_land_logo_dimens"
+        android:layout_marginTop="@dimen/layou_land_logo_marginTop"
+        android:src="@drawable/icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/email_tv"
+        android:layout_width="@dimen/layout_land_edit_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/edit_email_marginTop"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_iv" />
+
+    <EditText
+        android:id="@+id/password_et"
+        android:layout_width="@dimen/layout_land_edit_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/edit_password_marginTop"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_tv" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="@dimen/width_btn_login"
+        android:layout_height="@dimen/height_btn_login"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/btn_login_margin_top"
+        android:background="@drawable/button_background"
+        android:text="@string/login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_et" />
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="@dimen/width_btn_register"
+        android:layout_height="@dimen/height_btn_register"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/register_btn_margin_Top"
+        android:background="@drawable/button_background"
+        android:text="@string/register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_btn" />
+</android.support.constraint.ConstraintLayout>

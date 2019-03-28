@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/view_constrait_height"
+    android:background="@color/view_background">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/logo_iv"
+        android:layout_width="@dimen/circle_image_small_dimens"
+        android:layout_height="@dimen/circle_image_small_dimens"
+        android:layout_marginStart="@dimen/circle_image_small_margin_start"
+        android:layout_marginTop="@dimen/circle_image_small_marginTop"
+        android:layout_marginBottom="@dimen/circle_image_small_marginBottom"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="@color/border_color_circle_image"
+        app:civ_border_width="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/view_txt_marginStart"
+        android:layout_marginTop="@dimen/view_txt_marginTop"
+        android:layout_marginEnd="@dimen/view_txt_marginEnd"
+        android:fontFamily="sans-serif-light"
+        android:gravity="right"
+        android:textColor="@color/view_text_color"
+        android:textSize="@dimen/view_name_txt_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/logo_iv"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/phone_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/view_txt_marginStart"
+        android:layout_marginTop="@dimen/view_txt_marginTop"
+        android:layout_marginEnd="@dimen/view_txt_marginEnd"
+        android:fontFamily="sans-serif-light"
+        android:gravity="right"
+        android:textColor="@color/view_text_color"
+        android:textSize="@dimen/view_phone_txt_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/logo_iv"
+        app:layout_constraintTop_toBottomOf="@+id/name_tv" />
+
+</android.support.constraint.ConstraintLayout>

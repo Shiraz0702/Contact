@@ -1,0 +1,42 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="height_constrait_name">180dp</dimen>
+    <dimen name="circle_image_dimens">100dp</dimen>
+    <dimen name="cirle_image_top_margin">8dp</dimen>
+    <dimen name="circle_image_small_dimens">65dp</dimen>
+    <dimen name="circle_image_small_margin_start">16dp</dimen>
+    <dimen name="circle_image_small_marginTop">8dp</dimen>
+    <dimen name="circle_image_small_marginBottom">8dp</dimen>
+    <dimen name="name_txt_margin_end">5dp</dimen>
+    <dimen name="name_txt_size">25sp</dimen>
+    <dimen name="surname_txt_size">25dp</dimen>
+    <dimen name="phone_txt_size">15sp</dimen>
+    <dimen name="phon_txt_margin_start">8dp</dimen>
+    <dimen name="icon_email_margin_top">8dp</dimen>
+    <dimen name="icon_phone_margin_start">50dp</dimen>
+    <dimen name="icon_phone_margin_top">50dp</dimen>
+    <dimen name="email_txt_margin_start">8dp</dimen>
+    <dimen name="list_divider_height">1dp</dimen>
+    <dimen name="width_btn_login">200dp</dimen>
+    <dimen name="height_btn_login">50dp</dimen>
+    <dimen name="btn_login_margin_top">24dp</dimen>
+    <dimen name="width_btn_register">200dp</dimen>
+    <dimen name="height_btn_register">50dp</dimen>
+    <dimen name="view_constrait_height">78dp</dimen>
+    <dimen name="view_name_txt_size">20sp</dimen>
+    <dimen name="view_phone_txt_size">14sp</dimen>
+    <dimen name="view_txt_marginStart">24dp</dimen>
+    <dimen name="view_txt_marginTop">8dp</dimen>
+    <dimen name="view_txt_marginEnd">16dp</dimen>
+    <dimen name="logo_margin_start_end">16dp</dimen>
+    <dimen name="logo_margin_top">32dp</dimen>
+    <dimen name="edit_margin_start_end">16dp</dimen>
+    <dimen name="edit_email_marginTop">8dp</dimen>
+    <dimen name="edit_password_marginTop">24dp</dimen>
+    <dimen name="register_btn_margin_Top">16dp</dimen>
+    <dimen name="layout_land_edit_width">400dp</dimen>
+    <dimen name="layou_land_logo_marginTop">8dp</dimen>
+    <dimen name="laout_land_logo_dimens">50dp</dimen>
+</resources>
